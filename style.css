@@ -1,0 +1,65 @@
+.keys{
+	display : flex;
+	padding:  10px;
+	background-color:  #eeede8 ;
+	min-height: 45vh;
+    align-items: center;
+	justify-content:  center;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+
+h3{
+	margin-bottom : 40px;
+	text-align: center;
+	background-color: #B2F9F1 ;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: "Sofia", sans-serif;
+}
+
+.logo{
+
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+img{
+	height: 150px;
+	width: 150px;
+}
+
+.key{
+	border-top : #963ADD 0.4rem solid;
+    border-left : #F5B041 0.4rem solid;
+    border-bottom : #963ADD 0.4rem solid;
+    border-right : #F5B041 0.4rem solid;
+	margin : 1.7rem;
+	text-align: center;
+    padding: 1rem 0.5rem;
+    border-radius: 12px;
+    background: #F0E9F5;
+    color: black;
+    width: 10rem;
+    transition: all 0.07s ease;
+}
+
+kbd{
+	display: block;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color:#171A17;
+  box-shadow: 0 0 1rem #88FB62;
+}
+.sound{
+	font-weight: 500;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
